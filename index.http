@@ -1,0 +1,29 @@
+POST http://localhost:3007/addBrands
+Content-Type: application/json 
+
+{
+    "brandName": "iPhone", 
+    "place": "Bangalore",
+    "details": 500000
+}
+
+###
+GET http://localhost:3007/
+
+###
+DELETE http://localhost:3007/delete/63a95c9300b0f0bfb7e15eb4
+
+###
+GET http://localhost:3007/getALlData/63a958048b95a96015255212
+
+
+###
+PUT  http://localhost:3007/update/63a9588b4390f6341c61cd33
+Content-Type: application/json
+
+
+{
+    "brandName": "max", 
+    "place": "Bangalore",
+    "details": 500400
+}
