@@ -64,8 +64,8 @@ app.put('/update/:id',async(request,response) => {
     }
 })
 
-// app.post('./update/')
 
 
-app.listen(3007, () => console.log('running port'))
+
+app.listen(process.env.PORT  || 3007, () => console.log('running port'))
 
